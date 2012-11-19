@@ -4,7 +4,7 @@ Carlos Caballero
  Lisbet Monteza
  Silvina Becerra
 
-Link de la bitácora 
+Link de la bitacora 
 https://docs.google.com/
 
 Link a Trello
