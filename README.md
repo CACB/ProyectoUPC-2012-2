@@ -1,8 +1,9 @@
 Nombre de los integrantes:
 
 Carlos Caballero
-<\br>Lisbet Monteza
-<\br>Silvina Becerra
+<br>Silvina Becerra
+<br>Lisbet Monteza
+
 
 Link de la bitacora 
 https://docs.google.com/
