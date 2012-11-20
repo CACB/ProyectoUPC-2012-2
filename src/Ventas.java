@@ -8,10 +8,10 @@ public class Ventas {
     private String fecha_pago;
     private String estado;
     private String concepto;
+    private String moneda;
     private double subtotal;
     private double igv;
-    private double total;
-    private String moneda;
+    private double total;    
 
     public Ventas(String numero, String fecha_emision, String fecha_vencimiento, String empresa, String fecha_pago, String estado, String concepto, double subtotal, double igv, double total, String moneda) {
         this.numero = numero;

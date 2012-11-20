@@ -3,14 +3,17 @@
  * and open the template in the editor.
  */
 
+
+
+
 /**
  *
- * @author Carlos Caballero - u814011
+ * @author Shisho
  */
-public class BusinessException  extends Exception{
-    
-    public BusinessException (String Mensaje){
-        
-    }   
-    
+public class BusinessException extends Exception {
+
+    public BusinessException(String Mensaje){
+
+        super(Mensaje);
+    }
 }

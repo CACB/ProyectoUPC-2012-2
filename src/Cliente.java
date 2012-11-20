@@ -78,6 +78,5 @@ public class Cliente {
         this.telefono = val;
     }
 
-   
 }
 
