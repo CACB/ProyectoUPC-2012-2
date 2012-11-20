@@ -69,14 +69,14 @@ public class AdmVentas {
         oven.setFecha_vencimiento(fecha_vencimiento);
         oven.setEmpresa(empresa);
         oven.setFecha_pago(fecha_pago);
-        oven.
+    /*    oven.
         oven.setS_pais(S_pais);
         oven.setS_nombres(S_nombres);
         oven.setS_apellidos(S_apellidos);
         oven.setS_pasaporte(S_pasaporte);
         oven.setS_sexo(S_sexo);
         oven.setD_fechacumpleanos(D_fechacumpleanos);
-        oven.setS_comentario(S_comentario);
+        oven.setS_comentario(S_comentario);*/
     }
     
       public ArrayList<Ventas> fn_getDoc() {
