@@ -1,7 +1,7 @@
 
 public class Ventas {
 
-    private String numero;
+    private String numero;   
     private String fecha_emision;
     private String fecha_vencimiento;
     private String empresa;
@@ -11,7 +11,7 @@ public class Ventas {
     private String moneda;
     private double subtotal;
     private double igv;
-    private double total;    
+    private double total;
 
     public Ventas(String numero, String fecha_emision, String fecha_vencimiento, String empresa, String fecha_pago, String estado, String concepto, double subtotal, double igv, double total, String moneda) {
         this.numero = numero;
@@ -26,7 +26,7 @@ public class Ventas {
         this.total = total;
         this.moneda = moneda;
     }
-    
+
     public String getNumero() {
         return numero;
     }
@@ -114,9 +114,4 @@ public class Ventas {
     public void setMoneda(String moneda) {
         this.moneda = moneda;
     }
-    
-    
-    
-
 }
-
