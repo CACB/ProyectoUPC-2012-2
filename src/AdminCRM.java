@@ -203,7 +203,7 @@ public class AdminCRM {
     // Eliminar prospecto
     public void eliminarProspecto(String nombres) throws BusinessException {
         validarExistenciaCliente(nombres);
-        fn_getProspecto().remove(Fn_buscar_Cliente(nombres));
+        fn_getProspecto().remove(Fn_buscar_Prospecto(nombres));
     }
 
     // Editar venta
@@ -245,7 +245,7 @@ public class AdminCRM {
 
     // Editar prospecto
     public void editarProspecto(String nombres, String apellidopat, String apellidomat, String email, String dni, String telefono, String FechaContacto, int estado) throws BusinessException {
-        Cliente oven = Fn_buscar_Cliente(nombres);
+        Cliente oven = Fn_buscar_Prospecto(nombres);
         int index = 0;
 
         oven.setApellidopat(apellidopat);
