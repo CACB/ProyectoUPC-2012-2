@@ -13,6 +13,9 @@ public class Ventas {
     private double igv;
     private double total;
 
+    public Ventas() {
+    }
+
     public Ventas(String numero, String fecha_emision, String fecha_vencimiento, String empresa, String fecha_pago, String estado, String concepto, double subtotal, double igv, double total, String moneda) {
         this.numero = numero;
         this.fecha_emision = fecha_emision;
