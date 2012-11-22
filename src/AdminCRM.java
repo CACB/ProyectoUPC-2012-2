@@ -1,14 +1,5 @@
-
 import java.util.ArrayList;
 
-/*
- * To change this template, choose Tools | Templates and open the template in
- * the editor.
- */
-/**
- *
- * @author dv2000
- */
 public class AdminCRM {
 
     private ArrayList<Cliente> pro;
