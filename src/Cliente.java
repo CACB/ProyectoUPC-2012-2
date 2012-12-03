@@ -1,6 +1,6 @@
 
 public class Cliente {
-    
+
     private String nombres;
     private String apellidopat;
     private String apellidomat;
@@ -13,6 +13,7 @@ public class Cliente {
     public Cliente() {
     }
 
+    //CONSTRUCTOR
     public Cliente(String nombres, String apellidopat, String apellidomat, String email, String dni, String telefono, String FechaContacto, int Estado) {
         this.nombres = nombres;
         this.apellidopat = apellidopat;
@@ -23,60 +24,61 @@ public class Cliente {
         this.FechaContacto = FechaContacto;
         this.estado = Estado;
     }
-    
-    public String getFechaContacto () {
+
+    //METODOS GETTER Y SETTER
+    public String getFechaContacto() {
         return FechaContacto;
     }
 
-    public void setFechaContacto (String val) {
+    public void setFechaContacto(String val) {
         this.FechaContacto = val;
     }
 
-    public String getApellidomat () {
+    public String getApellidomat() {
         return apellidomat;
     }
 
-    public void setApellidomat (String val) {
+    public void setApellidomat(String val) {
         this.apellidomat = val;
     }
 
-    public String getApellidopat () {
+    public String getApellidopat() {
         return apellidopat;
     }
 
-    public void setApellidopat (String val) {
+    public void setApellidopat(String val) {
         this.apellidopat = val;
     }
 
-    public String getDni () {
+    public String getDni() {
         return dni;
     }
 
-    public void setDni (String val) {
+    public void setDni(String val) {
         this.dni = val;
     }
 
-    public String getEmail () {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail (String val) {
+    public void setEmail(String val) {
         this.email = val;
     }
 
-    public String getNombres () {
+    public String getNombres() {
         return nombres;
     }
 
-    public void setNombres (String val) {
+    public void setNombres(String val) {
         this.nombres = val;
     }
 
-    public String getTelefono () {
+    public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono (String val) {
+    public void setTelefono(String val) {
         this.telefono = val;
     }
 
@@ -87,7 +89,4 @@ public class Cliente {
     public void setEstado(int estado) {
         this.estado = estado;
     }
-
-   
 }
-

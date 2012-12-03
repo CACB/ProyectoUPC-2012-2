@@ -1,7 +1,7 @@
 
 public class Ventas {
 
-    private String numero;   
+    private String numero;
     private String fecha_emision;
     private String fecha_vencimiento;
     private String empresa;
@@ -12,11 +12,14 @@ public class Ventas {
     private double subtotal;
     private double igv;
     private double total;
+    private String observaciones;
 
     public Ventas() {
     }
 
-    public Ventas(String numero, String fecha_emision, String fecha_vencimiento, String empresa, String fecha_pago, String estado, String concepto, double subtotal, double igv, double total, String moneda) {
+    //CONSTRUCTOR
+    public Ventas(String numero, String fecha_emision, String fecha_vencimiento, String empresa, String fecha_pago, String estado, String concepto, double subtotal, double igv, double total, String moneda, String observaciones) {
+
         this.numero = numero;
         this.fecha_emision = fecha_emision;
         this.fecha_vencimiento = fecha_vencimiento;
@@ -24,12 +27,14 @@ public class Ventas {
         this.fecha_pago = fecha_pago;
         this.estado = estado;
         this.concepto = concepto;
+        this.moneda = moneda;
         this.subtotal = subtotal;
         this.igv = igv;
         this.total = total;
-        this.moneda = moneda;
+        this.observaciones = observaciones;
     }
 
+    //METODOS GETTER Y SETTER
     public String getNumero() {
         return numero;
     }
@@ -116,5 +121,13 @@ public class Ventas {
 
     public void setMoneda(String moneda) {
         this.moneda = moneda;
+    }
+
+    public String getObservaciones() {
+        return observaciones;
+    }
+
+    public void setObservaciones(String observaciones) {
+        this.observaciones = observaciones;
     }
 }
