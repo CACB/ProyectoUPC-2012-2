@@ -18,8 +18,6 @@ public class Usuario {
 
     public Usuario() {
     }
-    
-    //CONSTRUCTOR
 
     public Usuario(String dni,String nombre,String apellidopaterno,String apellidomaterno,String usuario,String contraseña,String correoelectronico,String fechaingreso,String cargo,String rol,String usuariocreacion,String fechacreacion,String usuarioactualizador,String fechaedicion) {
          
@@ -39,7 +37,6 @@ public class Usuario {
     this.fechaedicion = fechaedicion;    
     }
 
-    //METODOS GETTER Y SETTER
     
     public String getUsuarioactualizado() {
         return usuarioactualizador;

@@ -1,6 +1,6 @@
 
 public class Cliente {
-
+    
     private String nombres;
     private String apellidopat;
     private String apellidomat;
@@ -8,13 +8,12 @@ public class Cliente {
     private String dni;
     private String telefono;
     private String FechaContacto;
-    private int estado;
+    private Boolean estado; // true = cliente, false = prospecto
 
     public Cliente() {
     }
 
-    //CONSTRUCTOR
-    public Cliente(String nombres, String apellidopat, String apellidomat, String email, String dni, String telefono, String FechaContacto, int Estado) {
+    public Cliente(String nombres, String apellidopat, String apellidomat, String email, String dni, String telefono, String FechaContacto, Boolean estado) {
         this.nombres = nombres;
         this.apellidopat = apellidopat;
         this.apellidomat = apellidomat;
@@ -22,71 +21,72 @@ public class Cliente {
         this.dni = dni;
         this.telefono = telefono;
         this.FechaContacto = FechaContacto;
-        this.estado = Estado;
+        this.estado = estado;
     }
 
-    //METODOS GETTER Y SETTER
     public String getFechaContacto() {
         return FechaContacto;
     }
 
-    public void setFechaContacto(String val) {
-        this.FechaContacto = val;
+    public void setFechaContacto(String FechaContacto) {
+        this.FechaContacto = FechaContacto;
     }
 
     public String getApellidomat() {
         return apellidomat;
     }
 
-    public void setApellidomat(String val) {
-        this.apellidomat = val;
+    public void setApellidomat(String apellidomat) {
+        this.apellidomat = apellidomat;
     }
 
     public String getApellidopat() {
         return apellidopat;
     }
 
-    public void setApellidopat(String val) {
-        this.apellidopat = val;
+    public void setApellidopat(String apellidopat) {
+        this.apellidopat = apellidopat;
     }
 
     public String getDni() {
         return dni;
     }
 
-    public void setDni(String val) {
-        this.dni = val;
+    public void setDni(String dni) {
+        this.dni = dni;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String val) {
-        this.email = val;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public Boolean getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Boolean estado) {
+        this.estado = estado;
     }
 
     public String getNombres() {
         return nombres;
     }
 
-    public void setNombres(String val) {
-        this.nombres = val;
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
     }
 
     public String getTelefono() {
         return telefono;
     }
 
-    public void setTelefono(String val) {
-        this.telefono = val;
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
-
-    public int getEstado() {
-        return estado;
-    }
-
-    public void setEstado(int estado) {
-        this.estado = estado;
-    }
+    
 }
+
