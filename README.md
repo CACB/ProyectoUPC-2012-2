@@ -15,3 +15,6 @@ https://docs.google.com/spreadsheet/ccc?key=0AvX15PGTHK51dDE4cFd1NWZhNFFTMXZpRUR
 
 Link a Trello:
 https://trello.com/board/proyectopoo/50aaa734536ede866b003921
+
+Link Folder:
+https://skydrive.live.com/redir?resid=6607C7784AF25CBA!1745&authkey=!AAMsMtAqj_04TeU
