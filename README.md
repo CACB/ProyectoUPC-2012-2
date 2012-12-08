@@ -6,8 +6,8 @@ Carlos Caballero
 
 
 Link de la documentación:
-Google Docs: https://docs.google.com/file/d/0B_X15PGTHK51U3VlQjNuVV9UTUk/edit
-Sky Drive: https://skydrive.live.com/redir?resid=6607C7784AF25CBA!1193&authkey=!APDvXikJSlRJIH0
+<br>Google Docs: https://docs.google.com/file/d/0B_X15PGTHK51U3VlQjNuVV9UTUk/edit
+<br>Sky Drive: https://skydrive.live.com/redir?resid=6607C7784AF25CBA!1193&authkey=!APDvXikJSlRJIH0
 
 
 Link de la bitacora :
